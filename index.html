@@ -7,37 +7,37 @@
     <title>Andrew J. Gonzalez Web Developer</title>
   </head>
   <body>
-    <nav>
+    <nav class="blue darken-3">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Andrew J. Gonzalez</a>
+        <a ui-sref="home" class="brand-logo white-text">Andrew J. Gonzalez</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a ui-sref="bio">Bio</a></li>
-          <li><a ui-sref="resume">Resume</a></li>
-          <li><a ui-sref="portfolio">Portfolio</a></li>
-          <li><a ui-sref="home">Home</a></li>
+          <li><a ui-sref="home" class="white-text">Portfolio</a></li>
+          <li><a ui-sref="bio" class="white-text">Bio</a></li>
+          <li><a ui-sref="resume" class="white-text">Resume</a></li>
         </ul>
       </div>
     </nav>
     <main ui-view></main>
-    <footer class="page-footer">
+
+    <footer class="page-footer blue darken-3">
      <div class="container">
        <div class="row">
          <div class="col l6 s12">
            <h5 class="white-text">Andrew J. Gonzalez </h5>
-           <p class="grey-text text-lighten-4">Web Developer</p>
+           <p class="white-text">Web Developer</p>
          </div>
          <div class="col l4 offset-l2 s12">
            <h5 class="white-text">Links</h5>
            <ul id="footerUl">
-             <li><a class="grey-text text-lighten-3" href="https://github.com/agonzalez27" target="_blank"><img src="./assets/github.png" alt="Github"></a></li>
-             <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/andrewjgonzalez" target="_blank"><img src="./assets/linkedin.png" alt="LinkedIn"></a></li>
-             <li><a class="grey-text text-lighten-3" href="https://twitter.com/ajgonzalez77" target="_blank"><img src="./assets/twitter.png" alt="Twitter"></a></li>
+             <li><a href="https://github.com/agonzalez27" target="_blank"><img src="./assets/github.png" alt="Github"></a></li>
+             <li><a href="https://www.linkedin.com/in/andrewjgonzalez" target="_blank"><img src="./assets/linkedin.png" alt="LinkedIn"></a></li>
+             <li><a href="https://twitter.com/ajgonzalez77" target="_blank"><img src="./assets/twitter.png" alt="Twitter"></a></li>
            </ul>
          </div>
        </div>
      </div>
      <div class="footer-copyright">
-       <div class="container">
+       <div class="container white-text">
        © 2016 Copyright Andrew J. Gonzalez
        </div>
      </div>

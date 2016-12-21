@@ -1,4 +1,8 @@
 body {
-  background-color: white;
+  background-color: rgb(241, 243, 244);
   color: grey;
+}
+
+#photo {
+  width: 100px;
 }

@@ -8,12 +8,12 @@
 
   function MainRouter($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/portfolio');
 
     $stateProvider
       .state('home', {
-        url: '/',
-        templateUrl: 'js/templates/home.html'
+        url: '/portfolio',
+        templateUrl: 'js/templates/portfolio.html'
       })
       .state('bio', {
         url: '/bio',
@@ -22,10 +22,6 @@
       .state('resume', {
         url: '/resume',
         templateUrl: 'js/templates/resume.html'
-      })
-      .state('portfolio', {
-        url: '/portfolio',
-        templateUrl: 'js/templates/portfolio.html'
       })
   }
 }());
