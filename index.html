@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html ng-app="portfolio">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <title>Andrew J. Gonzalez Web Developer</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Andrew J. Gonzalez</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a ui-sref="bio">Bio</a></li>
+          <li><a ui-sref="resume">Resume</a></li>
+          <li><a ui-sref="portfolio">Portfolio</a></li>
+          <li><a ui-sref="home">Home</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main ui-view></main>
+    <footer class="page-footer">
+     <div class="container">
+       <div class="row">
+         <div class="col l6 s12">
+           <h5 class="white-text">Andrew J. Gonzalez </h5>
+           <p class="grey-text text-lighten-4">Web Developer</p>
+         </div>
+         <div class="col l4 offset-l2 s12">
+           <h5 class="white-text">Links</h5>
+           <ul id="footerUl">
+             <li><a class="grey-text text-lighten-3" href="https://github.com/agonzalez27" target="_blank"><img src="./assets/github.png" alt="Github"></a></li>
+             <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/andrewjgonzalez" target="_blank"><img src="./assets/linkedin.png" alt="LinkedIn"></a></li>
+             <li><a class="grey-text text-lighten-3" href="https://twitter.com/ajgonzalez77" target="_blank"><img src="./assets/twitter.png" alt="Twitter"></a></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+     <div class="footer-copyright">
+       <div class="container">
+       © 2016 Copyright Andrew J. Gonzalez
+       </div>
+     </div>
+    </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+
+  <!-- new router script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js"></script>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/config/routes.js"></script>
+
+
+  </body>
+</html>
