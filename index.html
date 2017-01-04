@@ -2,18 +2,40 @@
 <html ng-app="portfolio">
   <head>
     <meta charset="utf-8">
+<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+=======
+    <!--Import materialize.css-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+     <link rel="stylesheet" type="text/css" href="css/styles.css">
+     <script src="https://use.fontawesome.com/a7e7b6a73a.js"></script>
+
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+>>>>>>> master
     <title>Andrew J. Gonzalez Web Developer</title>
   </head>
   <body>
     <nav class="blue darken-3">
       <div class="nav-wrapper">
-        <a ui-sref="home" class="brand-logo white-text">Andrew J. Gonzalez</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <a href="#!" class="brand-logo">Andrew J. Gonzalez</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
           <li><a ui-sref="home" class="white-text">Portfolio</a></li>
           <li><a ui-sref="bio" class="white-text">Bio</a></li>
           <li><a ui-sref="resume" class="white-text">Resume</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a ui-sref="home">Portfolio</a></li>
+          <li><a ui-sref="bio">Bio</a></li>
+          <li><a ui-sref="resume">Resume</a></li>
         </ul>
       </div>
     </nav>
@@ -43,18 +65,18 @@
      </div>
     </footer>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 
-  <!-- new router script -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
 
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <!-- new router script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js"></script>
 
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/app.js"></script>
-  <script type="text/javascript" src="js/config/routes.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/config/routes.js"></script>
 
 
   </body>
